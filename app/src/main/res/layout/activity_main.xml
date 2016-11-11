@@ -75,6 +75,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="48dp"
+                android:onClick="doClick"
                 android:background="#330008ff"
                 android:text="发送"/>
 
@@ -83,6 +84,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="48dp"
+                android:onClick="doClick"
                 android:background="#330000ff"
                 android:text="查询"/>
 
@@ -137,6 +139,7 @@
                 android:id="@+id/bt_obtain"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="doClick"
                 android:background="#339d00ff"
                 android:text="获取"/>
 
