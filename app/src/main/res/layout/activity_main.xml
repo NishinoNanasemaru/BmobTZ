@@ -143,6 +143,15 @@
                 android:background="#339d00ff"
                 android:text="获取"/>
 
+            <Button
+                android:id="@+id/bt_push"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="48dp"
+                android:onClick="doClick"
+                android:background="#330000ff"
+                android:text="推送"/>
+
         </LinearLayout>
 
     </LinearLayout>
